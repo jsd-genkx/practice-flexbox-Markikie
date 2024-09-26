@@ -54,21 +54,21 @@ body {
   /* with flex we created an invisble main axis (across the screen left to right or horizontal) */
   /* we can use flex-direction: column; to switch the main axis to vertical or top to bottom  */
   /* this is the key to understanding flexbox  */
-
+  
   display: flex;
 
   /* flex-direction: column; */
-
+  justify-content: space-around;
   /* justify-content is for aligning the element on the main axis  (horizontal by default) */
   /* justify-content: space-evenly; */
 
   /* try */
   /* flex-start, flex-end, center,space-between,space-around, space-evenly */
-
+  flex-direction: column-reverse;
   /* align-items is for aligning the element on the cross axis (vertical when main axis is horizontal) */
   /* try */
   /* flex-start, flex-end, center,baseline */
-  align-items: flex-start;
+  align-items: center;
 
   /* by default, flex item will always try to fit in one line  */
   /* when there are more and more, the items will start crushing each other  */
